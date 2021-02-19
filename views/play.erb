@@ -1,9 +1,9 @@
 <div>
-<%= session[:player_1_name] %> vs. <%= session[:player_2_name] %>
+<%= @player_1_name %> vs. <%= @player_2_name %>
 </div>
 <span>/60 HP</span>
 
-<!-- <a href="/attack">Attack</a> -->
+<!-- alternative link option <a href="/attack">Attack</a> -->
 
 <form action="/attack">
   <input type="submit" value="Attack">
