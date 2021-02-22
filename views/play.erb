@@ -1,7 +1,10 @@
-<div>
-<%= @player_1_name %> vs. <%= @player_2_name %>
-</div>
-<span>/60 HP</span>
+
+<%= @game.player_1.name %> vs. <%= @game.player_2.name %>
+
+<%= @game.player_2.name %>: <%= @game.player_2.hit_points %> /60 HP
+
+
+
 
 <!-- alternative link option <a href="/attack">Attack</a> -->
 
