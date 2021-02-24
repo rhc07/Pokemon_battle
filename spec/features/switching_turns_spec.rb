@@ -9,7 +9,7 @@ feature 'Switching Player Turns' do
       sign_in_and_play
       click_button 'Attack'
       expect(page).to_not have_content("Pikachu's turn")
-      exepct(page).to have_content("Bulbasaur's turn")
+      expect(page).to have_content("Bulbasaur's turn")
     end
   end
 end
